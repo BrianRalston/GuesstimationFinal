@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by Brian Ralston -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hosted_games"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ralston.guesstimationfinal.HostedGames">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Available Games"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="22dp" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:id="@+id/currentGamesLv"
+            android:layout_weight="0.69" />
+
+        <Button
+            android:text="Create Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="CreateGameButtonClick" />
+
+
+    </LinearLayout>
+</RelativeLayout>

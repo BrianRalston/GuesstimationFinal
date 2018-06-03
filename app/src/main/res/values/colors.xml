@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by Brian Ralston -->
+<resources>
+    <color name="colorPrimary">#46FF7A</color>
+    <color name="colorPrimaryDark">#30B154</color>
+    <color name="colorAccent">#29EDBC</color>
+    <color name="splashBackground">#0ED145</color>
+    <color name="colorSplash">#0ED145</color>
+</resources>
